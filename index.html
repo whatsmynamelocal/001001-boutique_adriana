@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Boutique Adriana: Il tuo negozio sotto casa</title>
+	<meta charset="UTF+1">
+        <meta name="description" content="Boutique Adriana: il tuo negozio sotto casa">
+        <meta name="keywords" content="Boutique Adriana Abbigliamrnto Sotto Casa">
+        <meta name="google-adsense-account" content="ca-pub-6597726197533544">
+        <meta name="author" content="Greenictsafeuser">
+		<meta name="google-signin-client_id" content="33076297511-0d19jcafvjoufsm5lgu7imubcl9onjfu.apps.googleusercontent.com">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="greenuser.css">
+	<script src="https://apis.google.com/js/platform.js" async defer>
+
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  //const gpar = [];
+  //gpar.push(profile.getId(), profile.getName(), profile.getImageUrl(), profile.getEmail());
+  //console.log(gpar.length); // 4
+  //alert(googleUser.getBasicProfile.profile.getName());
+   alert('signed in');
+}
+
+ function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+	  alert('signed out');
+    });
+  }
+
+</script>
+	</head>
+    <body>
+	<hr></hr>
+          
+	     <img src="./img/greenlogo_details.png" alt="Boutique Adriana Logo det" style="width:2%,height:20%;" align="right" > </img>
+		 
+		 <table><tr><td><a href="index.html">/ -Pagina Principale- \</a></td><td><a href="index002.html">/ -Chi siamo?- \</a><td><a href="index003.html">/ -Dove siamo?- \</a></td> <td><a href="end.html">/ -Seguici sui Social- \</a></td></tr></tr>
+	<!-- <tr><td>
+	  <iframe width="420" height="345" src="https://www.youtube-nocookie.com/embed/vjmKCQxIRdM?si=JkJy2H96tuhb-ja6"></iframe>
+    </td></tr> -->
+	</table>
+		 
+		 
+		 <h1> - Pagina Principale - Trova il capo perfetto. -- </h1> 
+		<audio controls autoplay >
+		<source src="./notimg/benvenuti.mp3" type="audio/mpeg">
+         Your bro wser does not support the audio element.
+        </audio>
+		
+		
+	
+	<br></br>
+	<img src="./img/init_nat.jpg" alt="INT Adriana nat bar" style="width:100%;height:10%;" align="center" > </img>
+	
+	<br></br>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	  <img src="./img/mid_mirr_bar.jpg" alt="MID Adriana Logo" style="width:15%;height:15%;" align="right" > </img>
+	<br></br>
+	<br></br>
+<img src="./img/start.jpg" alt="Boutique Adriana Start" style="width:25%;height:32%;" > </img>
+
+<br></br>
+<a href="#" onclick="signOut();">Sign out</a>
+<hr></hr>
+
+
+    <label for="file"><h4>Barra di Navigazione:</h4></label>
+<progress id="file" value="10" max="100"> 10% </progress> <form action="index002.html"> <input type="submit" name="--> Riscaldamento"></input></form> 
+
+	    
+	
+	<!--	<iframe width="210" height="172" src="https://youtube.com/shorts/AjNpx9PaLHA?si=f32ojKYQfHLnSR_o">
+        </iframe>-->
+	
+	
+	    <br></br>
+	    <img src="./img/templogo.jpg" alt="GREEN ICT PROVIDER TO SAFE LOGO WORK_IN PROGRESS" style="width:15%;height:15%;" align="right" > </img> 
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<h4 align="center">
+		-- PUBLISHED by -- 
+           Greenictsafer001001 for Adriana Boutique
+		</h4>
+		
+		<hr></hr>
+    </body>
+</html>

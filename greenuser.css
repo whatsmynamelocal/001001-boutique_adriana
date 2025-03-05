@@ -1,0 +1,110 @@
+body {
+  background-color: pink;
+  background-image: url('./img/background.jpg');
+  background-repeat: no-repeat;
+  font-family: Bahnschrift;
+}
+h1 {
+  color: pink;
+  font-family: Bahnschrift;
+}
+h2 {
+  color: pink;
+  font-family: Bahnschrift;
+}
+h3 {
+  color: pink;
+  font-family: Bahnschrift;
+}
+h4 {
+  color: magenta;
+  background-color: black;
+  font-family: Bahnschrift;
+}
+hr {
+  color: magenta;
+  font-family: Bahnschrift;
+}
+p {
+  color: black;
+  font-family: Bahnschrift;
+}
+table
+ {
+  background-color: black;
+  color: white;
+  border-collapse: collapse;
+  width: 53%;
+  font-family: Bahnschrift;
+}
+td
+ {
+  color: white;
+  width: 10%;
+  align : center;
+  font-family: Bahnschrift;
+  border-style: double;
+  border-color: white;
+  border-width: 4px;
+}
+a
+{
+  color: magenta;
+  font-family: Bahnschrift;
+  align: center; 
+}
+input{
+     font-family: Bahnschrift ;
+	 background-color: black;
+     color: pink;
+}
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width:20%;
+  height:20%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
